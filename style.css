@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Neutral Colors */
+    --very-pale-cyan: hsl(193, 100%, 96%);
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --grayish-blue: hsl(208, 11%, 55%);
+
+    /* Primary Colors */
+    --pink: hsl(322, 100%, 66%);
+    --pale-pink: hsl(322, 100%, 86%);
+}
+
+body {
+    overflow-x: hidden;
+    height: 2900px;
+    font-size: 18px;
+}
+
+body h1,
+body h2,
+body h3,
+body h6 {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    max-width: 100%;
+    background-color: var(--very-pale-cyan);
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .tryIt {
+    position: relative;
+    left: 37%;
+}
+
+header .tryIt .btn {
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px -6px rgba(0,0,0,0.75);
+    background-color: #fff;
+    color: var(--very-dark-cyan);
+    width: 25%;
+    transition: 0.5s;
+}
+
+header .tryIt .btn:hover {
+    font-family: "Open Sans", sans-serif;
+    color: var(--grayish-blue);
+}
+
+header .rh1 img {
+    width: 25%;
+    position: relative;
+    top: 25%;
+    left: 10%;
+}
+
+header .rh1 {
+    margin-bottom: 4%;
+} 
+
+header .rh2 img {
+    max-width: 100%;
+    position: relative;
+    left: 20%;
+}
+
+.finalSignUp .btn,
+header .rh2 .btn {
+    border-radius: 30px;
+    width: 40%;
+    height: 32px;
+    box-shadow: 0px 0px 15px -6px rgba(0,0,0,0.75);
+    font-size: 11px;
+    font-weight: 600;
+    background-color: var(--pink);
+    color: #fff;
+    transition: 0.5s ease-in;
+}
+
+.finalSignUp .btn:hover,
+header .rh2 .btn:hover {
+    background-color: var(--pale-pink);
+    font-family: "Open Sans", sans-serif;
+}
+
+header .rh2 p,
+header .rh2 .btn,
+header .rh2 h1 {
+    position: relative;
+    top: 15%;
+}
+
+.s1 .r1,
+.s1 .r2,
+.s1 .r3 {
+    margin-top: 5%;
+    box-shadow: 0px 0px 15px -6px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    width: 1330px;
+}
+
+
+.s1 .r2,
+.s1 .r3 {
+    margin-top: 2%;
+    box-shadow: 0px 0px 15px -6px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    width: 1330px;
+}
+
+.s1 .r1 p,
+.s1 .r1 h2 {
+    position: relative;
+    top: 25%;
+    left: 10%;
+}
+
+.s1 .r1 p {
+    max-width: 70%;
+}
+
+.s1 .r1 img,
+.s1 .r2 img,
+.s1 .r3 img {
+    max-width: 80%;
+    margin-bottom: 75px;
+    margin-top: 75px;
+}
+
+.s1 .r2 p {
+    max-width: 60%;
+}
+
+.s1 .r2 h2,
+.s1 .r2 p {
+    position: relative;
+    top: 25%;
+}
+
+.s1 .r3 p {
+    max-width: 78%;
+} 
+
+.s1 .r3 h2, 
+.s1 .r3 p {
+    position: relative;
+    top: 30%;
+    left: 5%;
+}
+
+.finalSignUp {
+    position: relative;
+    bottom: 50px;
+    z-index: 1;
+    right: 10px;
+    width: 600px;
+    height: 150px;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 2%;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px -6px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.finalSignUp .btn {
+    width: 25%;
+    height: 25%;
+    padding-top: 7px;
+}
+
+.footerContainer {
+    position: relative;
+    bottom: 150px;
+    background-color: var(--very-dark-cyan);
+    color: #fff;
+    height: 19%;
+}
+
+.fr0 {
+    position: relative;
+    top: 45px;
+    right: 5%;
+    width: 110%;
+}
+
+.social {
+    position: absolute;
+    left: 77%;
+    bottom: 330px;
+    display: flex;
+    flex-direction: row;
+}
+
+.social i {
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+
+.social i:hover {
+    color: var(--pink);
+}
+
+
+
+.fr0 svg {
+    margin-top: 50%;
+    margin-bottom: 50%;
+    position: relative;
+    left: 70%;
+    filter: sepia(100%) saturate(1%);
+}
+
+.fr2 .infoIcon {
+    position: relative;
+    left: 11%;
+    bottom: 125px;
+}
+
+.fr2 .detail {
+    position: relative;
+    bottom: 125px;
+}
+ 
+.fr3 ul {
+    position: relative;
+    top: 100%;
+    right: 75px;
+}
+
+.fr3 ul li {
+    margin-bottom: 14px;
+    list-style: none;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+
+.fr3 ul li:hover {
+    text-decoration: underline;
+}
+
+.copyR {
+    position: relative;
+    bottom: 135px;
+    left: 74%;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+/* MOBILE */
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    body {
+        justify-content: center;
+        text-align: center;
+    }
+
+    header {
+        background-image: url(../images/bg-hero-mobile.svg);
+    }
+
+    header .rh1 {
+        position: relative;
+        right: 40%;
+    }
+
+    header .tryIt .btn {
+        position: relative;
+        left: 115px;
+        bottom: 49px;
+        width: 30%;
+    }
+
+    header .rh2 {
+        position: relative;
+        right: 7%;
+        bottom: 50px;
+    }
+
+    header .rh2 img {
+       position: relative;
+       left: auto;
+       top: 65px;
+    }
+
+    header .rh2 .btn {
+        width: 50%;
+    }
+
+    .s1 .r1 {
+        display: flex;
+        max-width: 350px;
+        font-size: 15px;
+        justify-content: center;
+        position: relative;
+        right: 40px;
+        margin-bottom: 10%;
+    }
+
+    .s1 .r1 > * {
+        order: 0;
+    }
+
+    .s1 .r1 .pic {
+        order: 1;
+    }
+
+    .s1 .r1 h2 {
+        position: relative;
+        left: 5%;
+    }
+
+    .s1 .r1 p {
+        position: relative;
+        left: 55px;
+    }
+
+    .s1 .r1 .description {
+        position: relative;
+        top: 100%;
+        order: 2;
+        position: relative;
+        bottom: 70px;
+    }
+    
+    .s1 .r2 {
+        width: 349px;
+        position: relative;
+        right: 40px;
+        margin-bottom: 10%;
+    }
+
+    .s1 .r2 .description {
+        position: relative;
+        bottom: 90px;
+    }
+
+    .s1 .r2 .description p {
+        position: relative;
+        left: 20%;
+        width: 800px;
+    }
+
+    .s1 .r3 {
+        display:flex;
+        position: relative;
+        right: 10%;
+        width: 345px;
+        max-height: 550px;
+    }
+
+    .s1 .r3 > * {
+        order: 0;
+    }
+    
+    .s1 .r3 .pic {
+        order: 1;
+    }
+
+    .s1 .r3 .description {
+        order: 2;
+        position: relative;
+        bottom: 100px;
+    }
+
+    .s1 .r3 .description p {
+        position: relative;
+        left: 15%;
+    }
+
+    .finalSignUp {
+        position: relative;
+        right: 3px;
+        bottom: 9px;
+        width: 335px;
+    }
+
+    .finalSignUp .btn {
+        width: 50%;
+    }
+
+    .footerContainer {
+        position: relative;
+        bottom: 549px;
+        margin-right: 4%;
+        height: 37%;
+    }
+
+    .footerContainer .fr1 {
+        position: relative;
+        right: 90%;
+        top: 110px;
+    }
+
+    .footerContainer .fr1 .fCol svg {
+        margin: 0 auto;
+        transform: scale(.6);
+    }
+
+    .fr0 {
+        margin-bottom: 125%;
+        margin-top: 125%;
+    }
+
+    .fr2 .infoIcon p {
+        position: relative;
+        right: 185px;
+        top: 140%;
+    }
+
+    .fr2 .detail {
+        text-align: start;
+        position: relative;
+        left: 14%;
+        bottom: 53px;
+        font-size: 15px;
+        width: 325px;
+    }
+
+    .fr2 .detail .location {
+        margin-bottom: 8%;
+    }
+
+    .fr2 .detail .number {
+        margin-bottom: 5.5%;
+    }
+
+    .fr3 .fc1,
+    .fr3 .fc2 {
+        text-align: start;
+        position: relative;
+        left: 70px;
+        bottom: 125px;
+    }
+
+    .fr3 .fc2 ul li,
+    .fr3 .fc1 ul li {
+        font-weight: 200;
+    }
+ 
+    .social {
+        position: relative;
+        left: 40%;
+        top: 35px;
+    }
+
+    .copyR {
+        position: relative;
+        left: 8%;
+        top: 35px;
+    }
+
+    footer .attribution {
+        position: relative;
+        top: 495%;
+        left: 5%;
+    }
+}
